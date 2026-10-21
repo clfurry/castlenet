@@ -26,7 +26,7 @@ var cl = &http.Client{
 }
 
 // Internal Post HTTP for castle
-func internalPostHttp(to string, payl []byte) ([]byte, error) {
+func InternalPostHttp(to string, payl []byte) ([]byte, error) {
 	// Best way is making the io.Reader in the func
 	// New request better for auth cuz it makes headers
 	// post method, to, io.reader
@@ -65,11 +65,11 @@ func internalPostHttp(to string, payl []byte) ([]byte, error) {
 }
 
 // As an alias and smth mor
-func decodeJson(body []byte, to any) error {
+func DecodeJson(body []byte, to any) error {
 	return json.NewDecoder(bytes.NewReader(body)).Decode(to)
 }
 
-func getSharedData(deckid string, tovar string) (any, error) {
+func GetSharedData(deckid string, tovar string) (any, error) {
 	// temp to more easy
 	tempcopy := jsongetss
 	tempcopy = strings.ReplaceAll(tempcopy, "hereputdeckid", deckid)
@@ -86,7 +86,7 @@ func getSharedData(deckid string, tovar string) (any, error) {
 	return body, err
 }
 
-func updateSharedData(deckid string, tovar string, val string) (any, error) {
+func UpdateSharedData(deckid string, tovar string, val string) (any, error) {
 	// temp to more easy
 	tempcopy := jsonpostss
 	tempcopy = strings.ReplaceAll(tempcopy, "hereputdeckid", deckid)
