@@ -76,7 +76,7 @@ func GetSharedData(deckid string, tovar string) (any, error) {
 	tempcopy = strings.ReplaceAll(tempcopy, "hereputvar", tovar)
 
 	// yep, i copy the code
-	body, err := internalPostHttp(qlendpoint, []byte(tempcopy))
+	body, err := InternalPostHttp(qlendpoint, []byte(tempcopy))
 	if err != nil {
 		fmt.Println("error: ", string(body), err)
 		// returns nil and error so i can make things
@@ -94,7 +94,7 @@ func UpdateSharedData(deckid string, tovar string, val string) (any, error) {
 	tempcopy = strings.ReplaceAll(tempcopy, "hereputvalue", val)
 
 	// yep, i copy the code
-	body, err := internalPostHttp(qlendpoint, []byte(tempcopy))
+	body, err := InternalPostHttp(qlendpoint, []byte(tempcopy))
 	if err != nil {
 		fmt.Println("error: ", string(body), err)
 		// returns nil and error so i can make things
