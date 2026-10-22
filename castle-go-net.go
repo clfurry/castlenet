@@ -15,6 +15,7 @@ import (
 const qlendpoint string = "https://api.castle.xyz/graphql"
 
 // IMPORTANT FOR THE THING
+var auth = ""
 var jsongetss = `{"variables":{},"query":"{\n  sharedDeckStorage(deckId: \"hereputdeckid\", keys: [\"hereputvar\"])\n}"}`
 var jsonpostss = `{"variables":{},"query":"mutation {\n  updateSharedDeckStorage(deckId: \"hereputdeckid\", updates: [{key: \"hereputvar\", value: \"hereputvalue\"}])\n}"}`
 
@@ -23,6 +24,10 @@ var jsonpostss = `{"variables":{},"query":"mutation {\n  updateSharedDeckStorage
 var cl = &http.Client{
 	// 20 cuz castle isnt fast
 	Timeout: time.Second * 20,
+}
+
+func LoadAuth(xauth string) {
+	auth = xauth
 }
 
 // Internal Post HTTP for castle
@@ -39,6 +44,8 @@ func InternalPostHttp(to string, payl []byte) ([]byte, error) {
 	}
 	// header set to the request
 	req.Header.Set("Content-Type", "application/json")
+	// required
+	req.Header.Set("X-Auth-Token", auth)
 
 	resp, err := cl.Do(req)
 	if err != nil {
