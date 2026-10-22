@@ -11,3 +11,5 @@ This software is **not affiliated with https://castle.xyz** this is an independe
 It needs an auth token (get it seeing headers in console>net>headers X-Auth-Token) the information is not shared as you can see in the main go (castle-go-net.go)
 
 **REMIND!** If you gonna make tons of requests, please, add a time limit!
+
+Also, dont share ur auth token to anyone!
