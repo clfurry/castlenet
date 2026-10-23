@@ -14,6 +14,8 @@ It needs an auth token (get it seeing headers in console>net>headers X-Auth-Toke
 
 Also, dont share ur auth token to anyone!
 
+Im not responsible of any bad action made with this tool.
+
 # WIKI
 
 `castlenet.LoadAuth(xauth string) > Nothing: Loads the auth token (Necessary to modify and read shared storage`
@@ -32,4 +34,4 @@ Getting deckid:
 Types:
 `For numbers: "0"`
 `For strings: "\\\"Hello World!\\\""`
-`For tables: I cant test it right now :3`
+`For tables: [\\\"hi\\\",0]`
