@@ -32,9 +32,10 @@ Getting deckid:
 `go to the page wheres your deck and copy example: https://castle.xyz/d/Ohd78EX2IM5y/lua-test > Ohd78EX2IM5y`
 
 Types:
-`For numbers: "0"`
-`For strings: "\\\"Hello World!\\\""`
-`For arrays: "[\\\"hi\\\",0]"`
-`For tables: "{\\\"dam\\\":0,\\\"hello\\\":[\\\"h\\\",\\\"e\\\",\\\"l\\\",\\\"l\\\",\\\"o\\\"],\\\"thing\\\":\\\"hi\\\"}"`
-`For booleans: "false"/"true"`
-`For nil: "null"`
+`For numbers: "0"` /
+`For strings: "\\\"Hello World!\\\""` /
+`For arrays: "[\\\"hi\\\",0]"` /
+`For tables: "{\\\"dam\\\":0,\\\"hello\\\":[\\\"h\\\",\\\"e\\\",\\\"l\\\",\\\"l\\\",\\\"o\\\"],\\\"thing\\\":\\\"hi\\\"}"` /
+`For booleans: "false"/"true"` /
+`For nil: "null"` /
+`For mixed table: "{\\\"1\\\":\\\"ha\\\",\\\"2\\\":\\\"he\\\",\\\"3\\\":\\\"hi\\\",\\\"ho\\\":\\\"ho\\\",\\\"hu\\\":\\\"hu\\\"}"`
