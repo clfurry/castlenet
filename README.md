@@ -26,5 +26,10 @@ Also, dont share ur auth token to anyone!
 
 `castlenet.UpdateSharedData(deckId string, toVar string, val string) > got any, err error: same as get but it modify the data, everything even numbers are string in the request`
 
-`Getting deckid:`
+Getting deckid:
 `go to the page wheres your deck and copy example: https://castle.xyz/d/Ohd78EX2IM5y/lua-test > Ohd78EX2IM5y`
+
+Types:
+`For numbers: "0"`
+`For strings: "\\\"Hello World!\\\""`
+`For tables: I cant test it right now :3`
