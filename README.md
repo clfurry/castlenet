@@ -34,4 +34,7 @@ Getting deckid:
 Types:
 `For numbers: "0"`
 `For strings: "\\\"Hello World!\\\""`
-`For tables: [\\\"hi\\\",0]`
+`For arrays: "[\\\"hi\\\",0]"`
+`For tables: "{\\\"dam\\\":0,\\\"hello\\\":[\\\"h\\\",\\\"e\\\",\\\"l\\\",\\\"l\\\",\\\"o\\\"],\\\"thing\\\":\\\"hi\\\"}"`
+`For booleans: "false"/"true"`
+`For nil: "null"`
