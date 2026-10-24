@@ -1,5 +1,7 @@
 # ¡¡¡DISCLAIMER!!!
 
+This is my first serious project hope it helps.
+
 This software is **not affiliated with [Castle: Make and Play](https://castle.xyz)** this is an independent and open source library for educational or deck-making purposes.
 Im not affiliated with [maksydab](https://castle.xyz/@maksydab) hes a cool person.
 
@@ -21,14 +23,14 @@ Im not responsible of any bad action made with this tool.
 
 # How to install
 
-GOPROXY direct:
+GOPROXY direct: <br>
 
-`Linux: GOPROXY=direct go get -u github.com/clfurry/castlenet/`
-`Windows Powershell: $env:GOPROXY="direct"; go get -u github.com/clfurry/castlenet/`
-`Windows CMD: set GOPROXY=direct && go get -u github.com/clfurry/castlenet/`
+`Linux: GOPROXY=direct go get -u github.com/clfurry/castlenet/` <br>
+`Windows Powershell: $env:GOPROXY="direct"; go get -u github.com/clfurry/castlenet/` <br>
+`Windows CMD: set GOPROXY=direct && go get -u github.com/clfurry/castlenet/` <br>
 MacOS: Same as linux
 
-Normal:
+Normal: <br>
 
 `go get -u github.com/clfurry/castlenet/`
 
@@ -49,7 +51,7 @@ MADE IN GO 1.22!!!!
 Getting deckid:
 `go to the page wheres your deck and copy example: https://castle.xyz/d/Ohd78EX2IM5y/lua-test > Ohd78EX2IM5y`
 
-Types:
+Types: <br>
 `For numbers: "0"` <br>
 `For strings: "\\\"Hello World!\\\""` <br>
 `For arrays: "[\\\"hi\\\",0]"` <br>
