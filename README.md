@@ -1,6 +1,7 @@
 # ¡¡¡DISCLAIMER!!!
 
-This software is **not affiliated with [Castle: Make and Play](https://castle.xyz)** this is an independent and open source library for educational purposes.
+This software is **not affiliated with [Castle: Make and Play](https://castle.xyz)** this is an independent and open source library for educational or deck-making purposes.
+Im not affiliated with [maksydab](https://castle.xyz/@maksydab) hes a cool person.
 
 **USE AT YOUR OWN RISK!!** Based in ToS the high use of automated tools can be **banned**!! [ToS](https://castle.xyz/terms)
 
