@@ -17,6 +17,23 @@ Also, dont share ur auth token to anyone!
 
 Im not responsible of any bad action made with this tool.
 
+
+
+# How to install
+
+GOPROXY direct:
+
+`Linux: GOPROXY=direct go get -u github.com/clfurry/castlenet/`
+`Windows Powershell: $env:GOPROXY="direct"; go get -u github.com/clfurry/castlenet/`
+`Windows CMD: set GOPROXY=direct && go get -u github.com/clfurry/castlenet/`
+MacOS: Same as linux
+
+Normal:
+
+`go get -u github.com/clfurry/castlenet/`
+
+MADE IN GO 1.22!!!!
+
 # WIKI
 
 `castlenet.LoadAuth(xauth string) > Nothing: Loads the auth token (Necessary to modify and read shared storage`
