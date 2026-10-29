@@ -59,3 +59,7 @@ Types: <br>
 `For booleans: "false"/"true"` <br>
 `For nil: "null"` <br>
 `For mixed table: "{\\\"1\\\":\\\"ha\\\",\\\"2\\\":\\\"he\\\",\\\"3\\\":\\\"hi\\\",\\\"ho\\\":\\\"ho\\\",\\\"hu\\\":\\\"hu\\\"}"`
+
+# Etc
+
+i dont really know what to add, most of the ideas completely violates castle ToS like modifying variables or leaderboard, im gonna just add leaderboardv2 to see the leaderboard from go but i need to verify.
