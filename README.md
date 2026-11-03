@@ -63,3 +63,4 @@ Types: <br>
 # Etc
 
 i dont really know what to add, most of the ideas completely violates castle ToS like modifying variables or leaderboard, im gonna just add leaderboardv2 to see the leaderboard from go but i need to verify.
+yep im gonna add a decode function the json to a Go object.
