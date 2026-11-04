@@ -60,6 +60,13 @@ Types: <br>
 `For nil: "null"` <br>
 `For mixed table: "{\\\"1\\\":\\\"ha\\\",\\\"2\\\":\\\"he\\\",\\\"3\\\":\\\"hi\\\",\\\"ho\\\":\\\"ho\\\",\\\"hu\\\":\\\"hu\\\"}"`
 
+Responses: <br>
+
+When get:
+`{"data":{"sharedDeckStorage":{"loadnum":"43"}}}`
+When post:
+`{"data":{"updateSharedDeckStorage":true}}`
+
 # Etc
 
 i dont really know what to add, most of the ideas completely violates castle ToS like modifying variables or leaderboard, im gonna just add leaderboardv2 to see the leaderboard from go but i need to verify.
