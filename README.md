@@ -59,6 +59,7 @@ Types: <br>
 `For booleans: "false"/"true"` <br>
 `For nil: "null"` <br>
 `For mixed table: "{\\\"1\\\":\\\"ha\\\",\\\"2\\\":\\\"he\\\",\\\"3\\\":\\\"hi\\\",\\\"ho\\\":\\\"ho\\\",\\\"hu\\\":\\\"hu\\\"}"`
+<br> `also the response is like {"data":{"sharedDeckStorage":{"loadnum":"\"Hello World!\""}}} without \\\` <br>
 
 Responses: <br>
 
