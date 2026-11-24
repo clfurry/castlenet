@@ -72,3 +72,9 @@ When post:
 
 i dont really know what to add, most of the ideas completely violates castle ToS like modifying variables or leaderboard, im gonna just add leaderboardv2 to see the leaderboard from go but i need to verify.
 yep im gonna add a decode function the json to a Go object.
+NEVERMINDDDDDD I DISCOVERED TON OF THINGSSSS!!!
+1. Can log as an anonymous user: NO NEED TO XAUTH!
+2. ik how leaderboardV2 works now!
+3. Can read comments and users and decks
+4. updateDeckStorage exists i think
+5. [THIS](https://game-server-proxy.castle.xyz/ws)
