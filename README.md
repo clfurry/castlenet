@@ -77,4 +77,4 @@ NEVERMINDDDDDD I DISCOVERED TON OF THINGSSSS!!!
 2. ik how leaderboardV2 works now!
 3. Can read comments and users and decks
 4. updateDeckStorage exists i think
-5. [THIS](https://game-server-proxy.castle.xyz/ws)
+5. [THIS](https://game-server-proxy.castle.xyz)
